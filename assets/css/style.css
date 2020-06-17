@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(236, 236, 236);
+    font-family: BentonSans;
+    display: block;
+    padding: 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.logo-pais {
+    /* background-image: url("../img/logo.png"); */
+    width: 15em;
+    height: 3em;
+}
+
+.menu-login {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.calendario {
+    font-weight: 300;
+}
+
+.idiomas a {
+    color: black;
+    padding: 0 .5rem;
+    font-weight: 300;
+}
+
+.activo {
+    font-weight: 500;
+    color: #016ca2 !important;
+    text-decoration: underline !important;
+}
+
+.menu-desplegable {
+    padding-top: 30px;
+}
+
+.menu-desplegable div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu-desplegable p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login {
+    float: right;
+}
+
+.menu-opciones nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: #686868;
+}
+
+.menu-opciones nav ul li {
+    flex-direction: row;
+    color: #686868;
+    padding: .8rem .6rem;
+    list-style: none;
+    font-size: 12px;
+}
+
+.corona-contenedor {
+    padding-top: 30px;
+}
+
+.noticias-corona {
+    border-top: 0.1rem solid black;
+    border-bottom: 0.1rem dotted black;
+    padding: 0.1rem 0;
+}
+
+.noticias-corona ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: #686868;
+}
+
+.img-corona {
+    float: left;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.noticias-corona ul li {
+    list-style: none;
+    font-size: 12px;
+}
+
+.titulo-corona {
+    display: inline-block;
+    margin-top: 5px;
+    border-bottom: 0.2rem solid #FE4342 !important;
+    color: #000000 !important;
+}
+
+.menu-publicidad {
+    border-bottom: 0.1rem solid black;
+}
+
+.menu-publicidad ul {
+    display: flex;
+    color: #686868;
+    /* grid-template-columns: repeat(4, 1fr); */
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.publicidad {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.izquierda {
+    background-color: tomato;
+}
+
+.derecha {
+    background-color: #016ca2;
+}
+
+@media (max-width: 880px) {
+    .idiomas {
+        display: none;
+    }
+    .menu-opciones {
+        display: none;
+    }
+}
